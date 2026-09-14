@@ -56,7 +56,18 @@ gh api repos/pooriaarab/skills/community/profile \
 ```
 
 A file that resolves through this repository reports a `url` under
-`pooriaarab/.github`.
+`pooriaarab/.github`. Verified on 2026-09-14, minutes after this repository was
+created: `skills` (public) and `offrouter` (private) both resolved their code of
+conduct here, and `offrouter` kept its own `CONTRIBUTING.md`, which is the
+override working as documented.
+
+One trap. That endpoint does **not** report a security policy, inherited or
+otherwise — there is no `security` key in its `files` object. Check the policy
+page instead:
+
+```bash
+curl -sL https://github.com/pooriaarab/skills/security/policy | grep -c "Report a vulnerability"
+```
 
 ## The standards these files encode
 
