@@ -13,13 +13,19 @@ requests than anyone can read carefully. They are not ceremony.
 **Open an issue first.** No issue, no branch. The issue number ties the branch,
 the pull request, and the merged commit to one agreed piece of work.
 
-An issue states four things:
+An issue states four things, under these headings:
 
-- **Job to be done** — what you cannot do today, in your own words.
-- **Today / Wanted** — what it does now, and what it must do instead.
-- **Acceptance criteria** — each one independently true or false. "Better" is
-  not a criterion.
-- **How to verify** — steps, then the expected result.
+    ## Job to be done
+    What you cannot do today, in your own words.
+
+    ## Today / Wanted
+    What it does now, and what it must do instead.
+
+    ## Acceptance criteria
+    Each one independently true or false. "Better" is not a criterion.
+
+    ## How to verify
+    Steps, then the expected result.
 
 Wait for a reply before you start. An unclear issue does not produce an unclear
 pull request. It produces one that closes cleanly against the wrong thing.

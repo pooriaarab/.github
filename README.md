@@ -62,7 +62,7 @@ conduct here, and `offrouter` kept its own `CONTRIBUTING.md`, which is the
 override working as documented.
 
 One trap. That endpoint does **not** report a security policy, inherited or
-otherwise — there is no `security` key in its `files` object. Check the policy
+otherwise. There is no `security` key in its `files` object. Check the policy
 page instead:
 
 ```bash
